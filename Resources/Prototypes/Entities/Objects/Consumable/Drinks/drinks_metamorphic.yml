@@ -679,6 +679,12 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/demonsblood.rsi
     state: icon
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 4
+    fillBaseName: fill-
+    changeColor: false
+    emptySpriteName: icon_empty
 
 - type: entity
   parent: DrinkGlass
@@ -695,6 +701,12 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/devilskiss.rsi
     state: icon
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 3
+    fillBaseName: fill-
+    changeColor: false
+    emptySpriteName: icon_empty
 
 - type: entity
   parent: DrinkGlass
