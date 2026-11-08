@@ -1,0 +1,17 @@
+- type: entity
+  id: StationCodeSignalTransmitter
+  name: трансимтррр сигнальый
+  description: Сендс сигналс
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Power/batteries.rsi
+    state: icon
+  - type: DeviceLinkSource
+    ports:
+    - CodeSet
+    - CodeChange
+  - type: TriggerOnAlertChange
+    needAlert: 
+    - red
+    - gamma
+    - blue
