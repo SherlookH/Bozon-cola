@@ -1,0 +1,9 @@
+- type: sourcePort
+  id: CodeSet
+  name: установка кода
+  description: Посылает сигнал, когда код станции установлен на указанный
+
+- type: sourcePort
+  id: CodeChange
+  name: смена кода
+  description: Посылает сигнал, когда код станции сменен, но не является указанным
