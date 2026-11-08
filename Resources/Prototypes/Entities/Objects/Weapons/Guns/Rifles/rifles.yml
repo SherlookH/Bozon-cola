@@ -20,14 +20,14 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 5
+    fireRate: 7.5
     selectedMode: FullAuto
     availableModes:
       - FullAuto
       - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
-    requiresSkill: true # CorvaxGoob-Skills
+    # requiresSkill: true # CorvaxGoob-Skills
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/Weapons/Guns/Cock/sf_rifle_cock.ogg
@@ -102,7 +102,17 @@
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -10
+    maxAngle: -7
   - type: Gun
+    minAngle: 13
+    maxAngle: 26
+    angleIncrease: 5
+    angleDecay: 32
+    fireRate: 7.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
   - type: ChamberMagazineAmmoProvider

@@ -9,8 +9,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
-      armorPenetration: 0.4 # Goobstation
+        Piercing: 23
+        Blunt: 6
+      armorPenetration: 0.2 # Goobstation
 
 - type: entity
   parent: BaseBulletPractice
